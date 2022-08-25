@@ -1,1 +1,73 @@
 
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+ #container {
+max-width: 1000px;
+box-shadow:0px 0px 20px 0px purple;
+height: auto;
+}
+#navbar{
+    overflow: hidden;
+    background-color: rgb(12, 1, 20);
+    position: fixed;
+    }
+    #navbar a{
+        flex-direction: row;
+        color: hotpink;
+        padding: 78px 78px;
+        text-decoration: dotted;
+        font-size: larger;
+
+        }
+    #navbar a:hover{
+        background-color: beige;
+    }
+    li{
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+#intropage{
+    width: 1000px;
+    height: 690px;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+   object-fit: fill;
+   box-shadow: 10px
+   
+   
+}
+.text-block{
+    position: absolute;
+    bottom: 345px;
+    left: 340px;
+    color: darkred;
+}
+#header{
+    background-color: beige;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+.aboutphoto{
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+}
+#foot{
+    background-color: black;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+}
+
